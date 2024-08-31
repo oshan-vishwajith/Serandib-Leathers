@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 7%;
+    height: 7%;
+}
+
+.admin_img{
+    width: 7%;
+    height:75px;
+    padding: 5px;
+}
+
+.rowimg{
+    width: 100px;
+    height: 100px;
+}
+
+.status{
+    font-weight: bold;
+    color: rgb(8, 186, 94);
+}
+
