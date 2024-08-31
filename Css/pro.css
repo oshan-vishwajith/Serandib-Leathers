@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+ 
+  background-size: cover;
+  background-position: center;
+}
+
+.sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #d3d8e0;
+  padding-top: 20px;
+
+}
+
+.sidebar a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #000;
+  display: block;
+}
+
+.sidebar a:hover {
+  background-color: #3A3B3C;
+  color: white;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.profile img {
+  border-radius: 50%;
+  margin-right: 10px;
+  width: 152px;
+  position: relative;
+  right: -25px;
+}
+
+.name{
+    font-size: 25px;
+}
+
+.main-content {
+  margin-left: 260px;
+  padding: 20px;
+}
+
+.sidebar hr {
+  border: 0;
+  height: 1px;
+  background-color: #3A3B3C;
+  margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+.wrapper{
+  width: 750px;
+  background: rgba(255, 255, 255, .1);
+  border: 2px solid rgba(255, 255, 255, .2) ;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  backdrop-filter: blur(50px);
+  border-radius: 10px;
+  color: black;
+  padding: 40px 35px 55px;
+  margin: 0 10px;
+}
+.wrapper h1{
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.wrapper .profile-pic .profile-img img{
+  align-items: center;
+}
+.wrapper .input-box{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.input-box .input-field{
+  position: relative;
+  width: 48%;
+  height: 50px;
+  margin: 13px 0;
+}
+.input-box .input-field input{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: 2px solid rgb(10, 0, 0);
+  outline: none;
+  font-size: 16px;
+  color: black;
+  border-radius: 6px;
+  padding: 15px 15px 15px 40px;
+}
+.input-box .input-field input::placeholder{
+  color: black;  
+}
+.input-box .input-field i{
+  position: absolute;
+  left: 15px;
+  top:50px;
+  transform:translateY(-170%);
+  font-size: 20px;
+}
+.wrapper .btn{
+  width: 100%;
+  height: 45px;
+  background:green;
+  border: none;
+  outline: none;
+  border-radius: 6px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer; 
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+@media (max-width:576px){
+  .input-box .input-field{
+      width: 100%;
+      margin: 10px 0;
+  }
+}
+
+.container {
+
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  position: relative;
+  margin-bottom: 20px;
+  
+}
+
+#profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid black;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#remove-btn {
+  background-color: #f44336;
+}
+
+#remove-btn:hover {
+  background-color: #e53935;
+}
