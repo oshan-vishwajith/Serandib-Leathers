@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    margin: 0;
+    background-color:rgb(242 239 232);
+    flex-direction: column;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+
+.registration {
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(242 239 232);
+   
+}
+
+.title {
+    font-size: 30px;
+    color: rgb(0 48 70);
+    text-align: center;
+
+}
+
+.form {
+    position: relative;
+    margin-bottom: 5px;
+   
+    
+}
+
+.form input {
+    width: calc(100%);
+    padding: 10px 10px 10px 40px; 
+    border: 1px solid rgb(0 48 70 / 20%);
+    border-radius: 27px;
+    background-color:rgb(242 239 232) ;
+   
+}
+
+.form label {
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: rgb(0 48 70) ; 
+}
+
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(226 149 24);
+    border: none;
+    border-radius: 27px;
+    color: rgb(0 48 70);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(205 143 33);
+}
+
+.login-link {
+    margin-top: 10px;
+    display: block;
+}
+
+.login-link .pre-text {
+    font-size: 16px;
+    color:rgb(0 48 70);
+}
+
+.login-link .action-link {
+    color: #181414;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-link .action-link:hover {
+    text-decoration: underline;
+}
